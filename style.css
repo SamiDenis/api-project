@@ -1,0 +1,42 @@
+body{
+    
+    background-color: #A56A20;
+}
+
+.head {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+}
+.pressButton {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  color: white;
+    padding: 10px;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid gray;
+    border-spacing: 20px;
+    margin: 60px;
+    width: 200px;
+    height: auto;
+    font-size: 18px;
+    background-color: #A87B3F;
+    border-collapse: separate;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+
+p {
+    font-size: 20px;
+    color: yellow;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.bronzerPic {
+  text-align: center;
+}
+

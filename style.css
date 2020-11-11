@@ -14,29 +14,69 @@ body{
 .pressButton {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid gray;
+  background-color: #A87B3F;
+  font-size: 20px;
   color: white;
-    padding: 10px;
-    border-top: 3px solid yellow;
-    border-bottom: 3px solid gray;
+  margin-left: 100px;
+
+}
+
+.pressButton button {
+    padding: 20px;
     border-spacing: 20px;
     margin: 60px;
     width: 200px;
     height: auto;
-    font-size: 18px;
+    overflow: hidden;
     background-color: #A87B3F;
     border-collapse: separate;
     font-family: Arial, Helvetica, sans-serif; 
+    float: left;
+    cursor: pointer;
+    transition: 0.4s;
 } 
+
+.pressButton button:hover{
+    background-color: yellow;
+}
+
+.pressButton button.active {
+  background: yellow;
+}
+
 
 p {
     font-size: 20px;
     color: yellow;
     margin-bottom: 60px;
     text-align: left;
+    padding-left: 100px;
+    padding-top: 80;
+    
 }
 
-.bronzerPic {
-  text-align: center;
+.hidden {
+  display: none;
 }
 
+.bronzerPic{
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.blushPic {
+  padding-left: 380px;
+  padding-top: 100px;
+}
+
+.contourPic{
+  padding-left: 660px;
+  padding-top: 100px;
+}
+
+.blush2Pic{
+  padding-left: 1100px;
+  padding-top: 100px;
+}

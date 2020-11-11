@@ -1,5 +1,6 @@
 let url1 ="http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
- let toc = document.querySelector(".toc")
+let toc = document.querySelectorAll(".toc")
+ 
  
  
 
@@ -7,10 +8,12 @@ let images = document.querySelectorAll("img")
 let buttons = document.querySelectorAll("button")
 let paragraphs = document.querySelectorAll("p")
 
-toc.style.opacity = 0;
+
+// toc.style.opacity = 0;
 
 
-for(let i=0; i<images.length; i++) {
+
+for(let i=0; i<toc.length; i++) {
 buttons[i].addEventListener("click", function (e){
   e.preventDefault();
   
@@ -22,7 +25,10 @@ buttons[i].addEventListener("click", function (e){
       paragraphs[i].innerText = data[i].description
     })
 
-    toc.style.opacity = 100;
-
+    
+toc[i].classList.toggle("hidden");
+    // toc.style.opacity = 100;
+    
+  
   })
 }
